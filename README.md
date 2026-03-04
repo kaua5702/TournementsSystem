@@ -59,7 +59,7 @@ Permite cadastrar jogadores, formar equipes, registrar vitórias/derrotas e orga
  ##   Saída esperada:O jogador ProMaster entrou para a equipe Dragons
  
 O jogador Shadow entrou para a equipe Dragons
-O jogador Speedy entrou para a equipe Titans
+ O jogador Speedy entrou para a equipe Titans
 
 O time Dragons foi adicionado
 O time Titans foi adicionado
