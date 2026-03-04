@@ -59,31 +59,48 @@ Permite cadastrar jogadores, formar equipes, registrar vitórias/derrotas e orga
  ##   Saída esperada:O jogador ProMaster entrou para a equipe Dragons
  
 O jogador Shadow entrou para a equipe Dragons
- O jogador Speedy entrou para a equipe Titans
+
+O jogador Speedy entrou para a equipe Titans
+
 
 O time Dragons foi adicionado
+
 O time Titans foi adicionado
 
+
 Torneio: Copa Gamer
+
 Dragons
+
 Nome: ProMaster
+
 Posição: 1
+
 Pontuação: 3
 
 Nome: Shadow
+
 Posição: 2
+
 Pontuação: 0
 
 Titans
+
 Nome: Speedy
+
 Posição: 1
+
 Pontuação: 2
 
 O time Dragons foi removido
 
 Torneio: Copa Gamer
+
 Titans
+
 Nome: Speedy
+
 Posição: 1
+
 Pontuação: 2
 
