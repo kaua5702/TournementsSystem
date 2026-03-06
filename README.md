@@ -13,6 +13,7 @@ Representa um jogador.
 - adicionarBonus(int pontos) → adiciona pontos extras ao score
 - exibirInfo() → mostra informações do jogador
 
+
 - Team.java
 Representa uma equipe.
 - Atributos: nameTeam, players (lista de jogadores)
@@ -30,6 +31,7 @@ Representa uma partida entre duas equipes.
 - iniciarPartida() → inicia a partida
 - getTeamA() / getTeamB() → acessa as equipes envolvidas
 
+
 - Tournaments.java
 Representa um torneio.
 - Atributos: nameTournaments, teams (lista de equipes), matches (lista de partidas)
@@ -43,6 +45,7 @@ Representa um torneio.
 - declararCampeao() → anuncia a equipe campeã
 - premiarJogadores() → dá bônus de 2 pontos para cada jogador da equipe campeã
 - getMatches() → retorna todas as partidas organizadas
+
 
 - Main.java
 Classe principal para execução do sistema.
