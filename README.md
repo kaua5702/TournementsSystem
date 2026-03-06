@@ -4,7 +4,7 @@ Permite cadastrar jogadores, formar equipes, organizar partidas, registrar resul
 ---
 
 ## 📂 Estrutura do Projeto
-- Player.java
+ - Player.java
 Representa um jogador.
 - Atributos: nickName, ranking, score, team
 - Métodos principais:
@@ -14,7 +14,7 @@ Representa um jogador.
 - exibirInfo() → mostra informações do jogador
 
 
-- Team.java
+ - Team.java
 Representa uma equipe.
 - Atributos: nameTeam, players (lista de jogadores)
 - Métodos principais:
@@ -23,7 +23,7 @@ Representa uma equipe.
 - getPontuacaoEquipe() → soma o score de todos os jogadores
 - exibirEquipe() → mostra todos os jogadores da equipe
 
-- Match.java
+ - Match.java
 Representa uma partida entre duas equipes.
 - Atributos: teamA, teamB, resultado
 - Regras: uma equipe não pode jogar contra si mesma.
@@ -32,7 +32,7 @@ Representa uma partida entre duas equipes.
 - getTeamA() / getTeamB() → acessa as equipes envolvidas
 
 
-- Tournaments.java
+ - Tournaments.java
 Representa um torneio.
 - Atributos: nameTournaments, teams (lista de equipes), matches (lista de partidas)
 - Métodos principais:
@@ -47,7 +47,7 @@ Representa um torneio.
 - getMatches() → retorna todas as partidas organizadas
 
 
-- Main.java
+ - Main.java
 Classe principal para execução do sistema.
 - Cria jogadores e equipes
 - Organiza torneio e partidas
