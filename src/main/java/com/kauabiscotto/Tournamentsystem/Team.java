@@ -18,9 +18,18 @@ public class Team {
         return nameTeam;
     }
 
+    public List<Player> getPlayers() {
+        return players;
+    }
+
+    public int getPontuacaoEquipe() {
+        return players.stream().mapToInt(Player::getScore).sum();
+    }
+
+
     public void adicionarJogador(Player player) {
         players.add(player);
-        System.out.println("O jogador " + player.getNickName() + " entrou para a equipe" + nameTeam);
+        System.out.println("O jogador " + player.getNickName() + " entrou para a equipe " + nameTeam);
         System.out.println();
     }
 
